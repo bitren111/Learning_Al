@@ -60,3 +60,18 @@ void RadixSort(int a[], int n) {
 	}
 }
 
+void bucketSort(int* a, int n, int max) {
+	int i, j;
+	int *buckets;
+	if (a == NULL || n < 1 || max < 1)
+		return;
+	if ((buckets = new int[max]) == NULL)
+		return;
+	std::memset(buckets, 0, max * sizeof(int));
+	for (i = 0; i < n; ++i)
+		buckets[a[i]]++;
+	for (i = 0,j = 0; i < max; ++i)
+		while ((buckets[i]--) > 0)
+			a[j++] = i;
+	delete[] buckets;
+}
