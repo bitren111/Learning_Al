@@ -149,10 +149,13 @@
     <ClInclude Include="charpter06.h" />
     <ClInclude Include="charpter07.h" />
     <ClInclude Include="charpter08.h" />
+    <ClInclude Include="charpter09.h" />
+    <ClInclude Include="p.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="charpter06.cpp" />
     <ClCompile Include="charpter07.cpp" />
+    <ClCompile Include="charpter09.cpp" />
     <ClCompile Include="chartper08.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>

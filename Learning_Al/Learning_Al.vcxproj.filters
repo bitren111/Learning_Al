@@ -24,6 +24,12 @@
     <ClInclude Include="charpter08.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="charpter09.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="charpter06.cpp">
@@ -36,6 +42,9 @@
       <Filter>头文件</Filter>
     </ClCompile>
     <ClCompile Include="chartper08.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charpter09.cpp">
       <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
